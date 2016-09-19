@@ -12,8 +12,7 @@ ionic2项目实战教程 - 第3讲 根据分类菜单获取列表
 ionic2项目实战教程 - 第4讲 实现左右滑动浏览图片  
 ionic2项目实战教程 - 第5讲 如何在ionic2中使用cordova插件  
 
-欢迎关注微信订阅号TongeBlog，查阅ionic2全套项目实战教程。  
-![alt](./www/img/TongeBlog.jpg)
+
 
 ## 前言
 
@@ -28,3 +27,5 @@ ionic2项目实战教程 - 第5讲 如何在ionic2中使用cordova插件
 
 &#160; &#160; &#160; &#160;最后简单几句话描述一下我在使用ionic+angular和ionic2+angular2开发项目的感受，首先angular2语法有很大的变动，整个框架基于TypeScript开发，如果有C#、Java，或者Swift开发经验者，学习这门语言基本没有多大难度的；再一个就是体验到了angular一直追求的核心概念：组件化（Component），整个开发过程中就是不停的在自定义组件，至于angular2的其他变动，比如为了优化性能去掉了$scope；将ng-controller的概念合并到了Component；双向数据绑定脏值检查的优化；嵌套路由；构造函数中的依赖注入等等，大家可移步至官网详细了解。
 
+>欢迎关注微信订阅号TongeBlog，查阅ionic2全套项目实战教程。  
+![alt](./www/img/TongeBlog.jpg)
