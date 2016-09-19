@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{selectedItem.title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-list>
+    <ion-card *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <img src="http://tnfs.tngou.net/image{{item.img}}" />
+      <div class="card-title">{{item.title}}</div>
+      <div class="card-subtitle"> </div>
+    </ion-card> 
+  </ion-list> 
+</ion-content>
